@@ -1,6 +1,7 @@
 import React from "react";
 import EventRegistrationForm from "./components/EventRegistrationForm";
 import TermsAndConditions from "./components/TermsAndConditions";
+import NotFound from "./components/NotFound";
 
 function App() {
     const [route, setRoute] = React.useState(window.location.hash);
@@ -11,15 +12,23 @@ function App() {
         return () => window.removeEventListener("hashchange", onHashChange);
     }, []);
 
-    return (
-        <>
-            {route === "#/terms" ? (
-                <TermsAndConditions />
-            ) : (
-                <EventRegistrationForm />
-            )}
-        </>
-    );
+    const renderCurrentPage = () => {
+        switch (route) {
+            case "#/terms":
+                return <TermsAndConditions />;
+            case "":
+            case "#":
+            case "#/":
+                return <EventRegistrationForm />;
+            case "#/404":
+            case "#/not-found":
+                return <NotFound />;
+            default:
+                return <NotFound />;
+        }
+    };
+
+    return <>{renderCurrentPage()}</>;
 }
 
 export default App;
