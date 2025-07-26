@@ -11,6 +11,7 @@ A modern, dark-themed event registration form built with React and Vite. This pr
 - Responsive and dark-themed UI
 - Easy to customize and extend
 
+
 ---
 
 ## Tech Stack
