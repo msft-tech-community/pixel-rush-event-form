@@ -131,8 +131,8 @@ const EventRegistrationForm = () => {
         try {
             // Send POST request to the registration endpoint
             const response = await fetch(
-                // "https://crc-admin-panel.azurewebsites.net/pixel-rush/register",
-                "http://127.0.0.1:5000/pixel-rush/register",
+                "https://crc-admin-panel.azurewebsites.net/pixel-rush/register",
+                // "http://127.0.0.1:5000/pixel-rush/register",
                 {
                     method: "POST",
                     headers: {
