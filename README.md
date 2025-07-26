@@ -1,13 +1,82 @@
-# React + Vite
+# Pixel Rush Event Registration Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, dark-themed event registration form built with React and Vite. This project provides a multi-step registration experience for events, with real-time validation and a responsive design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Multi-step registration form
+- Real-time input validation
+- Responsive and dark-themed UI
+- Easy to customize and extend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# dark-event-form
+---
+
+## Tech Stack
+
+- **React** – Frontend library for building user interfaces
+- **Vite** – Fast development build tool
+- **ESLint** – Linting for code quality
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or newer recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+
+### Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/msft-tech-community/pixel-rush-event-form
+   cd pixel-rush-event-form
+   ```
+
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+
+### Running the App
+
+Start the development server:
+```sh
+npm run dev
+```
+Open [http://localhost:5173](http://localhost:5173) in your browser to view the app.
+
+---
+
+## Folder Structure
+
+```
+pixel-rush-event-form/
+├── eslint.config.js         # ESLint configuration
+├── index.html               # Main HTML template
+├── package.json             # Project metadata and scripts
+├── README.md                # Project documentation
+├── vite.config.js           # Vite build tool configuration
+├── public/                  # Static assets
+│   └── vite.svg
+└── src/                     # Source code
+    ├── App.css              # Main app styles
+    ├── App.jsx              # Main app component
+    ├── index.css            # Global styles and resets
+    ├── main.jsx             # Entry point for React
+    ├── assets/              # Images and SVGs
+    │   └── react.svg
+    └── components/          # Reusable React components
+        ├── Confetti.jsx
+        ├── EventRegistrationForm.jsx
+        └── TermsAndConditions.jsx
+```
+
+---
+
+## License
+
+This project is licensed under the MIT
