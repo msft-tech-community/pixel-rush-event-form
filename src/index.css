@@ -1,0 +1,42 @@
+/* Dark Minimalistic Theme Reset and Base Styles */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  background: #181824;
+  color: #e0e0e0;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  color: #8ab4f8;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #fff;
+}
+input, button, select, textarea {
+  font-family: inherit;
+  font-size: 1rem;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  background: #232336;
+}
+::-webkit-scrollbar-thumb {
+  background: #232336;
+  border-radius: 4px;
+}
