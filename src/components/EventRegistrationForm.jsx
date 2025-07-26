@@ -131,7 +131,8 @@ const EventRegistrationForm = () => {
         try {
             // Send POST request to the registration endpoint
             const response = await fetch(
-                "https://crc-admin-panel.azurewebsites.net/pixel-rush/register",
+                // "https://crc-admin-panel.azurewebsites.net/pixel-rush/register",
+                "http://127.0.0.1:5000/pixel-rush/register",
                 {
                     method: "POST",
                     headers: {
@@ -198,6 +199,27 @@ const EventRegistrationForm = () => {
                                 event. You'll receive a confirmation email
                                 shortly with further details.
                             </div>
+                            <a
+                                href="https://chat.whatsapp.com/LPwCoHlTslhJLrFuKjbiiI"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="whatsapp-btn"
+                                style={{
+                                    display: "inline-block",
+                                    marginTop: "1.5rem",
+                                    padding: "0.8rem 2rem",
+                                    background: "#25D366",
+                                    color: "#181824",
+                                    borderRadius: "8px",
+                                    fontWeight: 600,
+                                    fontSize: "1.08rem",
+                                    textDecoration: "none",
+                                    boxShadow: "0 2px 8px 0 #25d36633",
+                                    transition: "background 0.2s, color 0.2s",
+                                }}
+                            >
+                                Join WhatsApp Group
+                            </a>
                         </div>
                     </div>
                 </div>
