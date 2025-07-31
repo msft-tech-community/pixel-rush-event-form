@@ -83,6 +83,9 @@ const TermsAndConditions = () => (
                         Event organizers' decisions on all matters are final and
                         binding.
                     </li>
+                    <li>
+                        Winners will be announced within 2 days of the competition's conclusion.
+                    </li>
                 </ul>
 
                 <h3>Communication & Updates</h3>
