@@ -6,7 +6,7 @@ const TermsAndConditions = () => (
         <div className="terms-container">
             <div className="terms-header">
                 <h1 className="terms-title">Terms & Conditions</h1>
-                <p className="terms-subtitle">Pixel Rush Event Registration</p>
+                <p className="terms-subtitle">Treasure Hunt Event Registration</p>
             </div>
 
             <div className="terms-content">

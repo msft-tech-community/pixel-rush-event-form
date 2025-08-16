@@ -1,4 +1,4 @@
-# Pixel Rush Event Registration Form
+# Treasure Hunt Event Registration Form
 
 A modern, dark-themed event registration form built with React and Vite. This project provides a multi-step registration experience for events, with real-time validation and a responsive design.
 
@@ -81,3 +81,4 @@ pixel-rush-event-form/
 ## License
 
 This project is licensed under the MIT
+# th-reg-form

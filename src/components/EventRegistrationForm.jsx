@@ -195,7 +195,7 @@ const EventRegistrationForm = () => {
                                 Registration Successful!
                             </div>
                             <div className="success-description">
-                                Thank you for registering for the Pixel Rush
+                                Thank you for registering for the Treasure Hunt
                                 event. You'll receive a confirmation email
                                 shortly with further details.
                             </div>
@@ -231,7 +231,7 @@ const EventRegistrationForm = () => {
         <div className="page-container">
             <div className="form-outer-container">
                 <form className="event-form" onSubmit={handleSubmit}>
-                    <h1 className="form-title">Pixel Rush Registration</h1>
+                    <h1 className="form-title">Treasure Hunt Registration</h1>
                     <p className="form-subtitle">
                         Join the ultimate coding challenge
                     </p>

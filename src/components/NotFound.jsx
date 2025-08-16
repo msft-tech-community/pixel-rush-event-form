@@ -11,7 +11,7 @@ const NotFound = () => {
                         <h1 className="error-title">Page Not Found</h1>
                         <p className="error-description">
                             Oops! The page you're looking for doesn't exist or
-                            has been moved. Let's get you back to the Pixel Rush
+                            has been moved. Let's get you back to the Treasure Hunt
                             registration.
                         </p>
 
